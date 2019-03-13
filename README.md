@@ -8,9 +8,11 @@ NewRelic::Agent::FFI interface that doesn't do anything
 
 # DESCRIPTION
 
-This distribution provides an interface for [NewRelic::Agent::FFI](https://metacpan.org/pod/NewRelic::Agent::FFI) and [NewRelic::Agent::FFI::Procedural](https://metacpan.org/pod/NewRelic::Agent::FFI::Procedural)
-that doesn't do anything.  It's useful for platforms that aren't supported by the NewRelic SDK (which is
-everything that isn't Linux AMD64 as it turns out).
+This distribution provides an interface for [NewRelic::Agent::FFI](https://metacpan.org/pod/NewRelic::Agent::FFI) and 
+[NewRelic::Agent::FFI::Procedural](https://metacpan.org/pod/NewRelic::Agent::FFI::Procedural) that doesn't do anything.  It might be useful for developing
+an application that uses [NewRelic::Agent::FFI](https://metacpan.org/pod/NewRelic::Agent::FFI), that runs on a supported platform in production,
+but you want to develop parts of the code base that don't rely on NewRelic on a platform that is not
+supported (which is everything that isn't Linux AMD64 apparently).
 
 # SEE ALSO
 
