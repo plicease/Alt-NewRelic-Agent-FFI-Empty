@@ -6,7 +6,7 @@ use 5.010;
 use NewRelic::Agent::FFI::Procedural ();
 
 # ABSTRACT: Perl Agent for NewRelic APM
-# VERSION
+our $VERSION = '0.08';
 
 =head1 SYNOPSIS
 

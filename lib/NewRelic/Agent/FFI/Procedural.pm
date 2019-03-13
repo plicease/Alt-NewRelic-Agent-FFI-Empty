@@ -20,7 +20,7 @@ use constant NEWRELIC_STATUS_CODE_STOPPING => 2;
 use constant NEWRELIC_STATUS_CODE_STARTED  => 3;
 
 # ABSTRACT: Procedural interface for NewRelic APM
-# VERSION
+our $VERSION = '0.08';
 
 =head1 SYNOPSIS
 
