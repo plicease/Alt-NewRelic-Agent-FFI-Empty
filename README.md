@@ -1,10 +1,12 @@
-# Alt::NewRelic::Agent::FFI::Empty [![Build Status](https://secure.travis-ci.org/plicease/Alt-NewRelic-Agent-FFI-Empty.png)](http://travis-ci.org/plicease/Alt-NewRelic-Agent-FFI-Empty)
+# Alt::NewRelic::Agent::FFI::Empty [![Build Status](https://travis-ci.org/plicease/Alt-NewRelic-Agent-FFI-Empty.svg)](http://travis-ci.org/plicease/Alt-NewRelic-Agent-FFI-Empty)
 
 NewRelic::Agent::FFI interface that doesn't do anything
 
 # SYNOPSIS
 
-    env PERL_ALT_INSTALL=OVERWRITE cpanm Alt::NewRelic::Agent::FFI::Empty
+```
+env PERL_ALT_INSTALL=OVERWRITE cpanm Alt::NewRelic::Agent::FFI::Empty
+```
 
 # DESCRIPTION
 
