@@ -13,6 +13,9 @@ use 5.008001;
 
 =head1 DESCRIPTION
 
+B<NOTE>: This module is deprecated.  It is based on the NewRelic Agent SDK, which was only
+ever released as beta software.  Please use L<NewFangle> instead.
+
 This distribution provides an interface for L<NewRelic::Agent::FFI> and 
 L<NewRelic::Agent::FFI::Procedural> that doesn't do anything.  It might be useful for developing
 an application that uses L<NewRelic::Agent::FFI>, that runs on a supported platform in production,
