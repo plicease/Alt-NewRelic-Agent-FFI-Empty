@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - Mark distribution as deprecated.
 
 0.02      2019-03-12 22:21:35 -0400
   - First CPAN release
